@@ -373,7 +373,7 @@ button:hover {
 }
 
 #home .btn:hover {
-  background: #00c6ff;
+  
   color: #0f2027;
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
@@ -814,6 +814,7 @@ body.dark h2 {
   color: #38bdf8; /* bleu clair */
   text-shadow: 0 0 10px rgba(56,189,248,0.5);
 }
+
 
 
 
