@@ -117,10 +117,6 @@ nav a:hover::after {
   transition: background-color 0.2s;
 }
 
-.btn button:hover {
-  background-color: #005582;
-}
-
 /* Sections */
 html {
   scroll-behavior: smooth;
@@ -818,6 +814,7 @@ body.dark h2 {
   color: #38bdf8; /* bleu clair */
   text-shadow: 0 0 10px rgba(56,189,248,0.5);
 }
+
 
 
 
