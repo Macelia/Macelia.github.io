@@ -947,15 +947,13 @@ body.dark #home h2 {
 }
 
 .skill-card {
-               /* occupe toute la colonne */
-  aspect-ratio: 1 / 1;     /* rend chaque card parfaitement carrée */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;            /* pour centrer le contenu */
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  padding:5px;
+  padding: 20px;
   
 }
 
@@ -980,6 +978,7 @@ body.dark #home h2 {
     grid-template-columns: 1fr; /* 1 card par ligne sur mobile */
   }
 }
+
 
 
 
