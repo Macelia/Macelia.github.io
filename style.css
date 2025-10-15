@@ -942,7 +942,7 @@ body.dark #home h2 {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 cards par ligne */
-  gap: 130px;
+  gap: 10px;
   justify-items: center;
 }
 
@@ -955,6 +955,7 @@ body.dark #home h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding:5px;
   
 }
 
@@ -970,7 +971,7 @@ body.dark #home h2 {
 }
 
 .skill-card p {
-  color: #444;
+  color: #black;
   font-size: 0.95rem;
   line-height: 1.4;
 }
@@ -979,6 +980,7 @@ body.dark #home h2 {
     grid-template-columns: 1fr; /* 1 card par ligne sur mobile */
   }
 }
+
 
 
 
