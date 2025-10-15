@@ -940,16 +940,16 @@ body.dark #home h2 {
 }
 /* card skills*/
 .skill-card {
-  background: #fff;
-  border-radius: 15px;
-  padding: 25px 20px;
+  
+  
+  
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: left;
+  text-align: center;
 }
 
 .skill-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-15px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
@@ -964,4 +964,5 @@ body.dark #home h2 {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+
 
