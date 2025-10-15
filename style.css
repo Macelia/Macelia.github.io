@@ -949,11 +949,11 @@ body.dark #home h2 {
 }
 
 .skill-card {
-  background: #fff;
-  border-radius: 15px;
+  
+  
   width: 100%;             /* occupe toute la colonne */
   aspect-ratio: 1 / 1;     /* rend chaque card parfaitement carrée */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;            /* pour centrer le contenu */
   flex-direction: column;
@@ -985,6 +985,7 @@ body.dark #home h2 {
   }
   
 }
+
 
 
 
