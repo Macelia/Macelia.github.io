@@ -938,3 +938,30 @@ body.dark #home h2 {
     top: 15px;
   }
 }
+/* card skills*/
+.skill-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.skill-card h3 {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
