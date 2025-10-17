@@ -266,8 +266,8 @@
     <h2>My Curriculum Vitae</h2>
     <div class="btn-row-cv">
     
-    <a href="CV_MACELIA-SAIDOUNE_L1.pdf" target="_blank"><button onclick="choose_CV">See CV</button></a> <br>
-    <a href="CV_MACELIA-SAIDOUNE_L1.pdf" download><button>download CV</button></a>
+    <button onclick="choose_CV">See CV</button><br>
+    <button onclick="download_CV">download CV</button>
     </div>
   </section>
    
@@ -338,8 +338,16 @@
       if(langue==="Fr"){ window.open('CV_MACELIA-SAIDOUNE_L1.pdf', '_blank');}
       else if(langue==="En"){window.open('CV_MACELIA-SAIDOUNE_polyAn_L1.pdf', '_blank');}
       else{alert("Invalid input. Please type 'En' or 'Fr'.");}
-      
     }
+
+    function download_CV(){
+      let langue = prompt("Write En for anglish ans Fr for french");
+      
+      if(langue==="Fr"){ window.open('CV_MACELIA-SAIDOUNE_L1.pdf');}
+      else if(langue==="En"){window.open('CV_MACELIA-SAIDOUNE_polyAn_L1.pdf');}
+      else{alert("Invalid input. Please type 'En' or 'Fr'.");}
+    }
+    
 
   </script>
 
@@ -349,6 +357,7 @@
   
 </body>
 </html>
+
 
 
 
