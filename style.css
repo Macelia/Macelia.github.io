@@ -953,19 +953,32 @@ body.dark #home h2 {
 }
 
 .skill-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;            /* pour centrer le contenu */
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(28, 169, 201, 0.4);
+  border-radius: 15px;
+  padding: 25px 20px;
+  width: 280px;
   text-align: center;
-  padding: 20px;
-  
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+ 
+
+  /* 👇 Ajout pour l’animation de glissement */
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.skill-card.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transform: translateY(-8px) scale(1.3);
+  border: 1px solid #1ca9c9;
+  z-index: 10;
 }
 
 .skill-card h3 {
@@ -975,16 +988,19 @@ body.dark #home h2 {
 }
 
 .skill-card p {
-  color: #black;
+  color: #fff;
   font-size: 0.95rem;
   line-height: 1.4;
 }
+
 @media (max-width:700px){
   .skills-grid {
     grid-template-columns: 1fr; /* 1 card par ligne sur mobile */
   }
 }
-
+.name{
+  margin-right: 70px;
+}
 
 
 

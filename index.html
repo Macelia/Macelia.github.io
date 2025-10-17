@@ -291,7 +291,9 @@
 </div>
 
   <footer>
-    <p>&copy; 2025 - Macelia_SAIDOUNE.All   rights reserved</p>
+    <p>&copy; 2025 - 
+      <span class="name" >Macelia_SAIDOUNE </span>  
+      <span>All   rights reserved</span></p>
   </footer>
 
 
@@ -354,6 +356,22 @@
       else if(langue==="En"){window.open('CV_MACELIA-SAIDOUNE_polyAn_L1.pdf');}
       else{alert("Invalid input. Please type 'En' or 'Fr'.");}
     }
+
+    /*gliss skills*/
+
+    const cards = document.querySelectorAll('.skill-card');
+
+function revealCards() {
+  cards.forEach(card => {
+    const rect = card.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      card.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealCards);
+window.addEventListener('load', revealCards);
     
 
   </script>
