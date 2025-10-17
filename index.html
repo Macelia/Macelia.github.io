@@ -334,8 +334,10 @@
     //------ voir le cv
     function choose_CV(){
       let langue = prompt("Write En for anglish ans Fr for french");
-      if(langue==="Fr") window.open('CV_MACELIA-SAIDOUNE_L1.pdf', '_blank');
-      else if(langue==="En")window.open('CV_MACELIA-SAIDOUNE_polyAn_L1.pdf', '_blank');
+      
+      if(langue==="Fr"){ window.open('CV_MACELIA-SAIDOUNE_L1.pdf', '_blank');}
+      else if(langue==="En"){window.open('CV_MACELIA-SAIDOUNE_polyAn_L1.pdf', '_blank');}
+      else{alert("Invalid input. Please type 'En' or 'Fr'.");}
       
     }
 
@@ -347,6 +349,7 @@
   
 </body>
 </html>
+
 
 
 
