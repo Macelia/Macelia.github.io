@@ -236,10 +236,11 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   transition: color 0.3s ease transform 0.3s ease-in-out, text-shadow 0.3s ease;
+  font-style: italic;
 }
 h2:hover{
 color: #1976d2;
-transform: scale(1.05);
+transform: scale(1.5);
 text-shadow: 0 0 15px rgba(28, 169, 201, 0.6);
 }
 
@@ -714,6 +715,7 @@ p {
 
 /* Titres des certificats */
 .cert-card h3 {
+  
   font-size: 1.2rem;
   color: #fff;
   margin-bottom: 8px;
@@ -748,7 +750,7 @@ p {
 /* Chaque diplôme */
 #education h3 {
   font-size: 1.4rem;
-  color: #f1f5f9;
+  color: #fff;
   margin-bottom: 8px;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -874,6 +876,10 @@ body.dark h2 {
   color: whitesmoke; 
   text-shadow: 0 0 10px #033564, #090b8b, #1107a3;
 }
+body.dark h3 {
+  color: #f1f5f9;
+}
+
 
 body.dark #home h2 {
   color: whitesmoke; /* bleu clair */
@@ -978,6 +984,7 @@ body.dark #home h2 {
     grid-template-columns: 1fr; /* 1 card par ligne sur mobile */
   }
 }
+
 
 
 
