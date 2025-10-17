@@ -333,6 +333,13 @@
         });
     //------ voir le cv
     function choose_CV(){
+
+       const win = window.open('', '_blank');
+
+       if(!win){ // si bloqué
+        alert('Popup bloquée — autorise les popups pour ce site ou utilise le bouton "Download CV".');
+        return;
+       }
       let langue = prompt("Write En for anglish ans Fr for french");
       
       if(langue==="Fr"){ window.open('CV_MACELIA-SAIDOUNE_L1.pdf', '_blank');}
@@ -357,6 +364,7 @@
   
 </body>
 </html>
+
 
 
 
