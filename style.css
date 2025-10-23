@@ -274,11 +274,10 @@ h2:hover {
 }
 .projects-container::-webkit-scrollbar-track {
   background:#190877;
-
   border-radius: 10px;
 }
 .projects-container::-webkit-scrollbar-thumb {
-  color: #e8e6f1;
+  backgroundr: #e8e6f1;
   border-radius: 10px;
 }
 
@@ -1017,6 +1016,7 @@ body.dark #home h2 {
 .name{
   margin-right: 70px;
 }
+
 
 
 
