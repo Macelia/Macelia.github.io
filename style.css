@@ -235,14 +235,19 @@ h2 {
   letter-spacing: 0.4px;
   margin-bottom: 30px;
   text-align: center;
-  transition: color 0.3s ease transform 0.3s ease-in-out, text-shadow 0.3s ease;
   font-style: italic;
+  transition: 
+    color 0.3s ease, 
+    transform 0.3s ease-in-out, 
+    text-shadow 0.3s ease;
 }
-h2:hover{
-color: #1976d2;
-transform: scale(1.5);
-text-shadow: 0 0 15px rgba(28, 169, 201, 0.6);
+
+h2:hover {
+  color: #1976d2;
+  transform: scale(1.5);
+  text-shadow: 0 0 15px rgba(28, 169, 201, 0.1);
 }
+
 
 
 /* Projets */
@@ -1012,6 +1017,7 @@ body.dark #home h2 {
 .name{
   margin-right: 70px;
 }
+
 
 
 
