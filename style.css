@@ -622,7 +622,7 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
-   color: #f1faee;
+   color: #fff;
 }
 .contact-item {
   gap: 20px;
@@ -1016,6 +1016,7 @@ body.dark #home h2 {
 .name{
   margin-right: 70px;
 }
+
 
 
 
