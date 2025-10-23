@@ -273,7 +273,7 @@ h2:hover {
   height: 10px;
 }
 .projects-container::-webkit-scrollbar-track {
-  background:#190877;
+  background:#fff;
   border-radius: 10px;
 }
 .projects-container::-webkit-scrollbar-thumb {
@@ -835,14 +835,14 @@ p {
   display: block;
   font-size: 0.95rem;
   font-weight: 500;
-  color: #1e293b;
+  color: #fff;
   margin-top: 6px;
 }
 
 /* Description */
 #experience p {
   font-size: 1rem;
-  color: #475569;
+  color: #fff;
   line-height: 1.6;
   margin-top: 5px;
 }
@@ -1016,6 +1016,7 @@ body.dark #home h2 {
 .name{
   margin-right: 70px;
 }
+
 
 
 
