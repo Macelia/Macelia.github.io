@@ -266,19 +266,30 @@ h2:hover {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding-bottom: 15px;
+
+  /* Pour Firefox */
+  scrollbar-color: #1976d2 #ffffff;
+  scrollbar-width: thin;
 }
 
-/* Scrollbar custom */
+/* Scrollbar custom (Chrome, Edge, Safari) */
 .projects-container::-webkit-scrollbar {
-  height: 10px;
+  height: 10px; /* hauteur de la barre horizontale */
 }
+
 .projects-container::-webkit-scrollbar-track {
-  background:#fff;
+  background: #ffffff; /* la piste blanche */
   border-radius: 10px;
 }
+
 .projects-container::-webkit-scrollbar-thumb {
-  backgroundr: #e8e6f1;
+  background: #1976d2; /* le curseur bleu */
   border-radius: 10px;
+}
+
+/* Petit effet visuel au survol */
+.projects-container::-webkit-scrollbar-thumb:hover {
+  background: #1258a8; /* bleu un peu plus foncé au survol */
 }
 
 /* STYLE DES CARTES (sans background blanc) */
@@ -732,7 +743,7 @@ p {
 .cert-card h3 {
   
   font-size: 1.2rem;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
@@ -747,7 +758,7 @@ p {
 /* Date */
 .cert-card span {
   font-size: 0.85rem;
-  color: #fff;
+  color: #ffffff;
 }
 /*education*/
 
@@ -1016,6 +1027,7 @@ body.dark #home h2 {
 .name{
   margin-right: 70px;
 }
+
 
 
 
